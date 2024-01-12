@@ -68,3 +68,32 @@ nav .btn{
     font-size: 14px;
 
 }
+
+.content .btn{
+    display: inline-block;
+    margin-top: 30px;
+    background: #ff960b;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+.coin-list{
+    position: absolute;
+    right: 10px;
+    bottom:50px ;
+    display: flex;
+    align-items: center;
+}
+
+.coin{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 15px;
+    color: #ff960b;
+    border: 1px solid white;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
